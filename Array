@@ -1,0 +1,15 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    //Declare an array
+    int N[15];
+    
+    // accessing an array
+    cout<< N[100] <<endl;
+    
+    cout<<"everything is fine"<<endl;
+
+    return 0;
+}
