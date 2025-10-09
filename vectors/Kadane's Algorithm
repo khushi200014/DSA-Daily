@@ -1,0 +1,59 @@
+/* MAXIMUM SUBARRAY SUM 
+
+Subarray :- Continuous part of an array
+
+Total Number Of Subarray an Array Could Have := N(N+1)/2
+
+To print all subarray :- 
+
+every subarray has a starting pt and its ending pt
+ 
+
+start index                     end index
+0                               0,1,2,3,4,...n-1
+1                               1, 2,3,4,5,...n-1
+.                               .
+.                               .
+.                               .
+n-1                             . . . . ...,n-1
+
+for(int start=0; start<n; start++){
+
+  for(int end = start; end<n-1; end++){
+  
+  
+  }
+
+}
+
+*/
+
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(){
+
+
+int n=5;
+int arr[5] = {1,2,3,4,5};
+
+
+for(int start=0; start<n; start++){
+
+  for(int end = start; end<n; end++){
+
+    for(int i=start;i<=end;i++){
+
+      cout<<arr[i];
+    }
+  
+  cout<<" ";
+  }
+ cout<<endl;
+}
+
+return 0;
+}
+
